@@ -3,11 +3,22 @@
 
       <link rel="apple-touch-icon" sizes="128x128" href="logo.jpeg">
   <link rel="icon" type="image/x-icon" href="logo.jpeg">
-  <title>Games | quiz-30.github.io</title>
-  <meta name="description" content="Play over 70+ gxmes on a-class.pro">
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6353603566849346"
-     crossorigin="anonymous"></script>
-		
+  <title>Games | Geometry Tryhard</title>
+       <script>
+	window.aiptag = window.aiptag || {cmd: []};
+	aiptag.cmd.display = aiptag.cmd.display || [];
+	aiptag.cmd.player = aiptag.cmd.player || [];
+
+	//CMP tool settings
+	aiptag.cmp = {
+		show: true,
+		position: "centered",  //centered, bottom
+		button: true,
+		buttonText: "Privacy settings",
+		buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
+	}
+	</script>
+		<script async src="//api.adinplay.com/libs/aiptag/pub/AGO/agario.surf/tag.min.js"></script>
   <head>
 
     <center>
@@ -31,7 +42,13 @@
 <a href="https://forms.gle/veKkmaY3wUTw3seG7" target="_blank"> Request A Game </a>
     </div>
 <br>
- 
+    <center>
+<div id='agario-surf_970x250'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('agario-surf_970x250'); });
+		</script>
+	</div>
+	   </center>    
 
 
   <style>
