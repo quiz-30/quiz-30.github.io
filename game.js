@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (game.id == gameID && game.download) {
           download.addEventListener("click", () => {
             window.open(
-              `https://macvg-games.github.io/zips/game${gameID}.zip`,
+              `https://quiz-30.github.io/zips/game${gameID}.zip`,
               "_blank"
             );
           });

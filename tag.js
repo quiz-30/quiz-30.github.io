@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tabTitle = document.getElementById("tab-title");
   const description = document.getElementById("description");
   title.innerHTML = tag.replace(/-/g, " ");
-  tabTitle.innerHTML = tag.replace(/-/g, " ") + " | MacVG";
+  tabTitle.innerHTML = tag.replace(/-/g, " ") + " | quiz-30.github.io";
   switch (title.innerHTML) {
     case "RPG Games":
       description.innerHTML =

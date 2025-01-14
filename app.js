@@ -41,7 +41,7 @@ function unCloak() {
   const pageTon = document.querySelector(".cloak");
   const favicon = document.querySelector(".favicon");
   favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="/media/logo.png" />`;
-  pageTon.innerHTML = "Settings | MacVG";
+  pageTon.innerHTML = "Settings | quiz-30.github.io";
   localStorage.setItem("title", "");
 }
 
