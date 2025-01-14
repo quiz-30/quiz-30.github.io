@@ -11,11 +11,11 @@ document.addEventListener("mousemove", function (event) {
 
 //**Above is the universal code for every MacWeb JavaScript file**//
 
-const google = ["Google", "/media/google.png"];
-const canva = ["Home - Canva", "/media/canva.png"];
-const clever = ["Clever | Portal", "/media/clever.png"];
-const schoology = ["Home | Schoology", "/media/schoology.png"];
-const newTab = ["New Tab", "/media/new-tab.png"];
+const google = ["Google", "/macvg/media/google.png"];
+const canva = ["Home - Canva", "/macvg/media/canva.png"];
+const clever = ["Clever | Portal", "/macvg/media/clever.png"];
+const schoology = ["Home | Schoology", "/macvg/media/schoology.png"];
+const newTab = ["New Tab", "/macvg/media/new-tab.png"];
 
 function google1() {
   localStorage.setItem("title", google);
@@ -40,7 +40,7 @@ function newTab1() {
 function unCloak() {
   const pageTon = document.querySelector(".cloak");
   const favicon = document.querySelector(".favicon");
-  favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="/media/logo.png" />`;
+  favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="/macvg/media/logo.png" />`;
   pageTon.innerHTML = "Settings | MacVG";
   localStorage.setItem("title", "");
 }

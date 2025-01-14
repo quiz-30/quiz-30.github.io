@@ -221,7 +221,7 @@ function favorite() {
         game.style.display = "flex";
         game
           .querySelector("#favoritesound")
-          .setAttribute("src", "/media/star-solid.svg");
+          .setAttribute("src", "/macvg/media/star-solid.svg");
       }
     });
   });
